@@ -8,7 +8,7 @@ const cors = require('cors')({origin: true});
 //create and config transporter
 let transporter = nodemailer.createTransport({
     host: 'your-host',
-    port: 'your-port-number',//add the port-number without strings
+    port: 'your-port-number',//add the port-number without quotes
     secure: true, // true for 465, false for other ports
     auth: {
         user: 'your@email',
